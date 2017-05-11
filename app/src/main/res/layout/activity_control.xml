@@ -25,7 +25,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
         android:layout_centerHorizontal="true"
-        android:padding="16dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="16dp"
         android:scaleType="fitCenter"
         app:srcCompat="@mipmap/img1"/>
 
