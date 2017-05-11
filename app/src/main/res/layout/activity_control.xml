@@ -21,11 +21,12 @@
 
     <ImageView
         android:id="@+id/centerImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
         android:layout_centerHorizontal="true"
         android:padding="16dp"
+        android:scaleType="fitCenter"
         app:srcCompat="@mipmap/img1"/>
 
     <LinearLayout
