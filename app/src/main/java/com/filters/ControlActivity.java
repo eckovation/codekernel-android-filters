@@ -175,7 +175,7 @@ public class ControlActivity extends AppCompatActivity {
         mControlToolbar = (Toolbar) findViewById(R.id.toolbar);
 
         mControlToolbar.setTitle(getString(R.string.app_name));
-        mControlToolbar.setNavigationIcon(R.mipmap.icon);
+        mControlToolbar.setNavigationIcon(R.drawable.icon);
         mControlToolbar.setTitleTextColor(getResources().getColor(R.color.colorWhite));
 
         mTickImageView = (ImageView) findViewById(R.id.imageView3);

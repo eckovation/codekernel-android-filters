@@ -31,7 +31,7 @@
         android:paddingRight="8dp"
         android:paddingTop="16dp"
         android:scaleType="centerInside"
-        app:srcCompat="@mipmap/center_image"/>
+        app:srcCompat="@drawable/center_image"/>
 
     <LinearLayout
         android:id="@+id/controlLinearLayout"
@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/uncheck"/>
+            app:srcCompat="@drawable/uncheck"/>
 
         <SeekBar
             android:id="@+id/seekBar"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:progressDrawable="@drawable/seekbar_layer"
-            android:thumb="@mipmap/progress_thumb"
+            android:thumb="@drawable/progress_thumb"
             />
 
         <ImageView
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/check"/>
+            app:srcCompat="@drawable/check"/>
     </LinearLayout>
 
     <LinearLayout
@@ -79,28 +79,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/effect1"/>
+            app:srcCompat="@drawable/effect1"/>
 
         <ImageView
             android:id="@+id/secondFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/effect2"/>
+            app:srcCompat="@drawable/effect2"/>
 
         <ImageView
             android:id="@+id/thirdFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/effect3"/>
+            app:srcCompat="@drawable/effect3"/>
 
         <ImageView
             android:id="@+id/fourthFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/effect4"/>
+            app:srcCompat="@drawable/effect4"/>
     </LinearLayout>
 
 </RelativeLayout>
