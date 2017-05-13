@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Filters.iml" filepath="$PROJECT_DIR$/Filters.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codekernel-android-filters.iml" filepath="$PROJECT_DIR$/codekernel-android-filters.iml" />
     </modules>
   </component>
 </project>

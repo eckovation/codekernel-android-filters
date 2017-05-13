@@ -8,6 +8,9 @@ public class ImagePreviewActivity extends AppCompatActivity {
 
     Toolbar mControlToolbar;
 
+    public static final String IMAGE_URI = "image_uri";
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

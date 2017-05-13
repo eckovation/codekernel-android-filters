@@ -30,8 +30,8 @@
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:paddingTop="16dp"
-        android:scaleType="fitCenter"
-        app:srcCompat="@mipmap/img1"/>
+        android:scaleType="centerInside"
+        app:srcCompat="@mipmap/center_image"/>
 
     <LinearLayout
         android:id="@+id/controlLinearLayout"
@@ -75,32 +75,32 @@
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@mipmap/effect2"/>
-
-        <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/firstFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/effect1"/>
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/secondFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/effect4"/>
+            app:srcCompat="@mipmap/effect2"/>
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/thirdFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@mipmap/effect3"/>
+
+        <ImageView
+            android:id="@+id/fourthFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/effect4"/>
     </LinearLayout>
 
 </RelativeLayout>
